@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link href="./style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- -----------------navigation bar------------------- -->
+    <nav class="navbar navbar-expand-lg header sticky-top">
+      <div class="container-fluid mx-5">
+        <a class="navbar-brand" href="#">
+          <img src="./Img/Logo.svg" alt="" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                style="
+                  color: #ff5151;
+                  font-family: Rubik;
+                  font-size: 20px;
+                  font-weight: 702;
+                  padding-top: 7px;
+                "
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">LookUps</a>
+            </li>
+          </ul>
+          <div class="nav-icons">
+            <a href="#"><img src="./Img/Search.svg" alt="" /></a>
+            <a href="#"><img src="./Img/User.svg" alt="" /></a>
+            <a href="#"><img src="./Img/Notification.svg" alt="" /></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!------------------------hero--------------------------->
+    <section class="container hero d-flex justify-content-between flex-wrap">
+      <div class="hero-text d-flex flex-column justify-content-center mx-auto">
+        <p class="text1">Limited Time Only For Winter</p>
+        <h1 class="text2">fash<span class="i">i</span>on</h1>
+        <p class="text3">LOOK YOUR BEST ON YOUR BEST DAY</p>
+        <button class="explore">Explore Now!</button>
+      </div>
+      <div class="hero-img">
+        <a href="#"><img src="./Img/Poster Picture.svg" alt="" /></a>
+      </div>
+    </section>
+    <br />
+    <br />
+    <br />
+    <!--------------------------Top Collection------------------->
+    <section
+      class="top-collection container d-flex flex-column align-items-center flex-wrap"
+    >
+      <div class="coll-top d-flex flex-column align-items-center flex-wrap">
+        <p class="col-tx1">COLLECTION</p>
+        <p class="col-tx2">Our Top Collection</p>
+        <div
+          class="col-buttons d-flex flex-row justify-content-between flex-wrap"
+        >
+          <button class="column-btn btn btn-light mx-3 p-auto">Jewellery</button>
+          <button class="acc-btn column-btn btn mx-3 p-auto">Accessories</button>
+          <button class="column-btn btn btn-light mx-3 p-auto">Dresses</button>
+          <button class="column-btn btn btn-light mx-3 p-auto">Footwear</button>
+        </div>
+      </div>
+      <div
+        class="coll-bottom d-flex flex-row justify-content-center align-items-center my-5"
+      >
+        <div>
+          <div class="cards card">
+            <div class="cards-img card-img">
+              <img
+                src="./Img/blue-dress.svg"
+                class="cards-img-top card-img-top"
+                alt="..."
+              />
+            </div>
+            <div class="card-body cards-body">
+              <h5 class="card-text cards-text">Armani Frok Ladies</h5>
+              <div class="d-flex justify-content-between">
+                <a href="#" class="btn">$ 500</a
+                ><img src="./Img/Rating.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="cards card">
+            <div class="cards-img card-img">
+              <img
+                src="./Img/hoodie.png"
+                class="cards-img-top card-img-top"
+                alt="..."
+              />
+            </div>
+            <div class="card-body cards-body">
+              <h5 class="card-text cards-text">Nike Air Men’s Hoodie</h5>
+              <div class="d-flex justify-content-between">
+                <a href="#" class="btn">$ 500</a
+                ><img src="./Img/Rating.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="cards card">
+            <div class="cards-img card-img">
+              <img
+                src="./Img/watch.svg"
+                class="cards-img-top card-img-top"
+                alt="..."
+              />
+            </div>
+            <div class="card-body cards-body">
+              <h5 class="card-text cards-text">Apple Watch Series 6</h5>
+              <div class="d-flex justify-content-between">
+                <a href="#" class="btn">$ 500</a
+                ><img src="./Img/Rating.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="cards card">
+            <div class="cards-img card-img">
+              <img
+                src="./Img/blue-dress.svg"
+                class="cards-img-top card-img-top"
+                alt="..."
+              />
+            </div>
+            <div class="card-body cards-body">
+              <h5 class="card-text cards-text">Armani Frok Ladies</h5>
+              <div class="d-flex justify-content-between">
+                <a href="#" class="btn">$ 500</a
+                ><img src="./Img/Rating.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="cards card">
+            <div class="cards-img card-img">
+              <img
+                src="./Img/hoodie.png"
+                class="cards-img-top card-img-top"
+                alt="..."
+              />
+            </div>
+            <div class="card-body cards-body">
+              <h5 class="card-text cards-text">Nike Air Men’s Hoodie</h5>
+              <div class="d-flex justify-content-between">
+                <a href="#" class="btn">$ 500</a
+                ><img src="./Img/Rating.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="cards card">
+            <div class="cards-img card-img">
+              <img
+                src="./Img/watch.svg"
+                class="cards-img-top card-img-top"
+                alt="..."
+              />
+            </div>
+            <div class="card-body cards-body">
+              <h5 class="card-text cards-text">Apple Watch Series 6</h5>
+              <div class="d-flex justify-content-between">
+                <a href="#" class="btn">$ 500</a
+                ><img src="./Img/Rating.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="cards card">
+            <div class="cards-img card-img">
+              <img
+                src="./Img/blue-dress.svg"
+                class="cards-img-top card-img-top"
+                alt="..."
+              />
+            </div>
+            <div class="card-body cards-body">
+              <h5 class="card-text cards-text">Armani Frok Ladies</h5>
+              <div class="d-flex justify-content-between">
+                <a href="#" class="btn">$ 500</a
+                ><img src="./Img/Rating.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="cards card">
+            <div class="cards-img card-img">
+              <img
+                src="./Img/hoodie.png"
+                class="cards-img-top card-img-top"
+                alt="..."
+              />
+            </div>
+            <div class="card-body cards-body">
+              <h5 class="card-text cards-text">Nike Air Men’s Hoodie</h5>
+              <div class="d-flex justify-content-between">
+                <a href="#" class="btn">$ 500</a
+                ><img src="./Img/Rating.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="cards card">
+            <div class="cards-img card-img">
+              <img
+                src="./Img/watch.svg"
+                class="cards-img-top card-img-top"
+                alt="..."
+              />
+            </div>
+            <div class="card-body cards-body">
+              <h5 class="card-text cards-text">Apple Watch Series 6</h5>
+              <div class="d-flex justify-content-between">
+                <a href="#" class="btn">$ 500</a
+                ><img src="./Img/Rating.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------------Latest Collection----------------------------->
+    <section
+      class="latest container d-flex flex-column align-items-center flex-wrap"
+    >
+      <div class="coll-top d-flex flex-column align-items-center flex-wrap">
+        <p class="col-tx1">New Arrival</p>
+        <p class="col-tx2">Latest Collection</p>
+      </div>
+      <div class="posters">
+        <div class="red">
+          <img src="./Img/red_Poster.svg" alt="" />
+          <!-- a -->
+        </div>
+        <div class="pink-poster">
+          <img src="Img/pink-poster.svg" alt="" />
+          <!-- a -->
+        </div>
+        <div class="yellow">
+          <img src="Img/yellow-Poster.svg" alt="" />
+          <!-- a -->
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------2021 Latest Collection--------------------------------------->
+    <section
+      class="2021 container d-flex flex-column align-items-center flex-wrap my-5"
+    >
+      <div class="coll-top d-flex flex-column align-items-center flex-wrap">
+        <p class="col-tx1">CATEGORIES</p>
+        <p class="col-tx2">2021 Latest Collection</p>
+      </div>
+      <div
+        class="shop d-flex flex-wrap mx-3 justify-content-center align-items-center"
+      >
+        <div class="card">
+          <div class="card-img">
+            <img src="./Img/sunglasses.png" class="card-img-top" alt="..." />
+          </div>
+          <div class="card-body">
+            <h5 class="card-text">Armani Frok Ladies</h5>
+            <div class="d-flex justify-content-between">
+              <a href="#" class="btn">$ 500</a
+              ><img src="./Img/Rating.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="./Img/sunglasses.png" class="card-img-top" alt="..." />
+          </div>
+          <div class="card-body">
+            <h5 class="card-text">Armani Frok Ladies</h5>
+            <div class="d-flex justify-content-between">
+              <a href="#" class="btn">$ 500</a
+              ><img src="./Img/Rating.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="./Img/sunglasses.png" class="card-img-top" alt="..." />
+          </div>
+          <div class="card-body">
+            <h5 class="card-text">Armani Frok Ladies</h5>
+            <div class="d-flex justify-content-between">
+              <a href="#" class="btn">$ 500</a
+              ><img src="./Img/Rating.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="./Img/sunglasses.png" class="card-img-top" alt="..." />
+          </div>
+          <div class="card-body">
+            <h5 class="card-text">Armani Frok Ladies</h5>
+            <div class="d-flex justify-content-between">
+              <a href="#" class="btn">$ 500</a
+              ><img src="./Img/Rating.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="./Img/sunglasses.png" class="card-img-top" alt="..." />
+          </div>
+          <div class="card-body">
+            <h5 class="card-text">Armani Frok Ladies</h5>
+            <div class="d-flex justify-content-between">
+              <a href="#" class="btn">$ 500</a
+              ><img src="./Img/Rating.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="./Img/sunglasses.png" class="card-img-top" alt="..." />
+          </div>
+          <div class="card-body">
+            <h5 class="card-text">Armani Frok Ladies</h5>
+            <div class="d-flex justify-content-between">
+              <a href="#" class="btn">$ 500</a
+              ><img src="./Img/Rating.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="./Img/sunglasses.png" class="card-img-top" alt="..." />
+          </div>
+          <div class="card-body">
+            <h5 class="card-text">Armani Frok Ladies</h5>
+            <div class="d-flex justify-content-between">
+              <a href="#" class="btn">$ 500</a
+              ><img src="./Img/Rating.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="./Img/sunglasses.png" class="card-img-top" alt="..." />
+          </div>
+          <div class="card-body">
+            <h5 class="card-text">Armani Frok Ladies</h5>
+            <div class="d-flex justify-content-between">
+              <a href="#" class="btn">$ 500</a
+              ><img src="./Img/Rating.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------FOOTER--------------------------------->
+    <footer class="d-flex justify-content-around flex-wrap">
+      <div class="info d-flex flex-column align-items-center">
+        <img src="./Img/Logo.svg" alt="" />
+        <p>Lorem ipsum dolor sit amet.</p>
+        <a href="#"><img src="./Img/Social Media Buttons.svg" alt="" /></a>
+        <p style="color: #ff5e3a">Copyrights 2021<br />@Iamabdulqadeer01</p>
+      </div>
+      <div class="prod">
+        <ul>
+          <li>PRODUCTS</li>
+          <li><a href="#">Download</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Locations</a></li>
+          <li><a href="#">Server</a></li>
+          <li><a href="#">Countries</a></li>
+        </ul>
+      </div>
+      <div class="cat">
+        <ul>
+          <li>CATEGORIES</li>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Women</a></li>
+          <li><a href="#">Kids</a></li>
+          <li><a href="#">Best Seller</a></li>
+          <li><a href="#">New Arrivals</a></li>
+        </ul>
+      </div>
+      <div class="acc">
+        <ul>
+          <li>MY ACCOUNT</li>
+          <li><a href="#">My Account</a></li>
+          <li><a href="#">Discount</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">Order History</a></li>
+          <li><a href="#">Order Tracking</a></li>
+        </ul>
+      </div>
+      <div class="contact">
+        <ul>
+          <li>CONTACT US</li>
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-location-dot" style="color: #ff5e3a"></i>
+              123 Street Trafford, London, UK</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-envelope" style="color: #ff5e3a"></i>
+              info@sitename.com</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-phone" style="color: #ff5e3a"></i> +456 789
+              789 001</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

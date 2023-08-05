@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Inter&display=swap');
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    background: #FAFAFA;
+}
+
+a{
+    text-decoration: none !important;
+}
+/* ----------------navigation bar =============================*/
+.navbar{
+    background-color: white;
+}
+.nav-item{
+    margin-inline: 20px;
+}
+.nav-link{
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4F5665;
+}
+.nav-icons a{
+    margin-inline:10px ;
+}
+
+/* -------------------hero============================== */
+.hero{
+    margin-top:30px ;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(252, 203, 144, 0.44) 0%, rgba(255, 154, 158, 0.38) 100%);
+}
+
+.explore{
+    border:none;
+    width: 210px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(255, 81, 81, 0.50) 0%, #FF5E3A 100%);
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px; 
+    box-shadow: 1px 5px 10px rgb(238, 84, 42);
+}
+.explore:hover{
+    box-shadow: 1px 5px 20px black;
+}
+.text1{
+    color: #000;
+    font-family: Mada;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.text2{
+    flex-shrink: 0;
+    color: #000;
+    font-family: Aclonica;
+    font-size: 114px;
+    font-style: normal;
+    font-weight: 400;
+}
+.i{  
+    color: #FF5E3A;
+    position: relative;
+}
+.i:before {
+    content: "ı";
+    position: absolute; 
+    color: black;
+}
+.text3{
+    color: #000;
+    font-family: Mada;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+/* -----------------Top collections=================== */
+.col-tx1{
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    border-bottom: 2px solid #FF5E3A;
+}
+.col-tx2{
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; 
+}
+.column-btn{
+    color: #4F5665;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px;
+    background-color: white;
+    box-shadow: 0px 0px 5px grey;
+
+}
+.acc-btn,.col-btn:hover{
+    background-image: linear-gradient(180deg, rgba(255, 81, 81, 0.50) 0%, #FF5E3A 100%);
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px; 
+}
+.coll-bottom{
+    overflow-x: auto;
+    margin-inline: auto;
+    width:88vw;
+}
+.coll-bottom>div{
+    width:100%;
+    margin-inline:auto;
+    white-space:nowrap;
+}
+.cards{
+    width: 380px;
+    margin-inline: 1%;
+    border:none;
+    display: inline-block;
+}
+.cards-img{
+    height: 300px;
+    background: linear-gradient(180deg, rgba(252, 203, 144, 0.44) 0%, rgba(255, 154, 158, 0.38) 100%);
+
+}
+.cards-img-top{
+
+    object-fit:center;
+    padding: 90px;
+    padding-top:60px;
+    border-radius: 25px;
+}
+.card-text{
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.cards-body a{
+    border-radius: 10px;
+    background: #FF5E3A;
+    width: 80px;
+    height: 29px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height:11px;
+}
+.cards-body a:hover{
+    border:1px solid orange !important;
+}
+
+/* -----------------Latest Collections--------------------------- */
+.posters{
+    display: grid;
+    grid-template-columns:  38vw 40vw;
+    grid-template-rows: 16vw 17vw; 
+    grid-gap: 3vw;
+}
+.posters img{
+    width: 40vw;
+}
+.pink-poster{
+    grid-row-start: span 2;
+}
+
+/* -----------------------------2021 Collection============================== */
+.shop .card{
+    width: 285px;
+    border-radius: 25px;
+    border: 0.5px solid rgba(144, 144, 144, 0.25);
+    background: #F0F0F0;
+    box-shadow: 0px 0px 4px gray;
+    margin:10px;
+}
+.shop .card-body{
+    background-color: white;
+    border-radius: 0px 0px 25px 25px;
+}
+
+.card-body a{
+    border-radius: 10px;
+    background: #FF5E3A;
+    width: 80px;
+    height: 29px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height:11px;
+}
+.card-body a:hover{
+    border:1px solid orange !important;
+}
+
+/* -------------------------------------FOOTER=============================== */
+footer{
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    background-color: rgba(252, 203, 144, 0.15);
+    padding: 40px;
+}
+footer li:first-child{
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+footer a{
+    text-decoration: none;
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}
+footer a:hover{
+    color:#FF5E3A;
+}
+footer ul{
+    list-style: none;
+}
+
+@media only screen and (max-width: 650px) {
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  }
